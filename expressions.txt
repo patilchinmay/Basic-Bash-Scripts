@@ -1,0 +1,13 @@
+chipatil@CHIPATIL-CA3M4:~$ expr 2 + 2
+4
+chipatil@CHIPATIL-CA3M4:~$ expr 5 % 2
+1
+chipatil@CHIPATIL-CA3M4:~$ expr 5 / 2
+2
+chipatil@CHIPATIL-CA3M4:~$ expr 10 \* 9
+90
+chipatil@CHIPATIL-CA3M4:~$ expr 5.0 / 2
+expr: non-integer argument
+chipatil@CHIPATIL-CA3M4:~$ expr \( 2 + 2 \) \* 4
+16
+chipatil@CHIPATIL-CA3M4:~$

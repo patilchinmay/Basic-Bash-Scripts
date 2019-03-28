@@ -1,0 +1,10 @@
+chipatil@CHIPATIL-CA3M4:~$ FIRSTNAME="CHINMAY" // Remember no spaces on either side of =
+chipatil@CHIPATIL-CA3M4:~$ ECHO FIRSTNAME
+ECHO: command not found
+chipatil@CHIPATIL-CA3M4:~$ echo FIRSTNAME
+FIRSTNAME
+chipatil@CHIPATIL-CA3M4:~$ export FIRSTNAME
+chipatil@CHIPATIL-CA3M4:~$ env | grep FIRSTNAME
+FIRSTNAME=CHINMAY
+chipatil@CHIPATIL-CA3M4:~$ echo $FIRSTNAME
+CHINMAY

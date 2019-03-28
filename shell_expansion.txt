@@ -1,0 +1,21 @@
+chipatil@CHIPATIL-CA3M4:~$ echo sh{ot, ort, oot}
+sh{ot, ort, oot}
+chipatil@CHIPATIL-CA3M4:~$ echo st{il, al}l
+st{il, al}l
+chipatil@CHIPATIL-CA3M4:~$ echo st{il,al}l
+still stall
+chipatil@CHIPATIL-CA3M4:~$ echo $HOME
+/home/chipatil
+chipatil@CHIPATIL-CA3M4:~$ echo ~
+/home/chipatil
+chipatil@CHIPATIL-CA3M4:~$ echo `pwd`
+/home/chipatil
+chipatil@CHIPATIL-CA3M4:~$ echo ~+
+/home/chipatil
+chipatil@CHIPATIL-CA3M4:~$ echo "${!HO*}"
+HOME HOSTNAME HOSTTYPE
+chipatil@CHIPATIL-CA3M4:~$ echo "${VARNAME:=somevalue}"
+somevalue
+chipatil@CHIPATIL-CA3M4:~$ echo "$[2 * 2]"
+4
+chipatil@CHIPATIL-CA3M4:~$
